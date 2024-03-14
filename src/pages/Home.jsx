@@ -100,7 +100,7 @@ const Home = () => {
     <div className="">
       <img
         src={images[currentImageIndex].imgSrc}
-        className="flex items-center rounded-3xl w-auto max-h-[600px] overflow-hidden mx-auto my-4 text-white"
+        className="flex items-center rounded-3xl max-w-auto max-h-[600px] overflow-hidden mx-auto my-4 text-white"
         alt=""
       />
       {/* <img
@@ -108,6 +108,7 @@ const Home = () => {
         className="block md:hidden items-center rounded-3xl w-auto max-h-[400px] p-2overflow-hidden mx-auto my-4 text-white object-fit"
         alt=""
       /> */}
+        <AboutComp />
       <div className="">
         <h1 className="text-[#26173F] text-xl md:text-3xl xl:text-5xl font-bold text-center my-[20px] md:my-[70px]">
           Upcoming{" "}
@@ -139,7 +140,7 @@ const Home = () => {
         </div>
       </div>
       <What_can_do />
-      <AboutComp />
+    
       <Logo />
       <Past_event />
       <Services />

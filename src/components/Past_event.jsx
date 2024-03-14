@@ -73,7 +73,7 @@ const Past_event = () => {
             <img
               src={images[(currentImageIndex + index) % images.length].imgSrc}
               alt={images[(currentImageIndex + index) % images.length].alt}
-              className="object-cover w-full h-auto rounded-lg"
+              className="object-cover w-full h-full rounded-lg"
             />
           </div>
         ))}

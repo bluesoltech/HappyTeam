@@ -21,7 +21,7 @@ const AboutComp = () => {
     return () => clearInterval(timer); // Clear the interval on component unmount
   }, []);
   return (
-    <div className="flex flex-col md:flex-row gap-5 items-center !justify-between">
+    <div className="flex flex-col md:flex-row gap-5 items-center !justify-between m-20">
       <div className="w-full md:w-[50%]">
         <h1 className="text-[#26173F] text-2xl md:text-3xl xl:text-5xl font-bold text-center">
           About{" "}
@@ -97,7 +97,7 @@ const AboutComp = () => {
       <div className="flex w-full md:w-[50%] items-end justify-center xl:justify-end xl:mt-0 mt-4">
         <div className="flex xl:h-[600px] w-[500px] rounded-lg items-center justify-center md:justify-end">
           <img
-            src={images[currentImageIndex].imgSrc}
+            src={slide1}
             alt={images[currentImageIndex].alt}
             className="rounded-lg h-[400px] xl:h-[600px] object-cover"
           />
