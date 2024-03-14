@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import slide1 from "../assets/img/a-1.jpg";
 import slide2 from "../assets/img/a-2.jpg";
-import slide3 from "../assets/img/a-3.jpg";
+import slide3 from "../assets/img/n-2.jpg";
 
 const images = [
   { imgSrc: slide1, alt: "Description of slide 8" },
@@ -39,7 +39,7 @@ const AboutComp = () => {
           <div className="space-y-2">
             <div className="flex justify-between mb-1">
               <span className="text-base font-medium text-black ">
-                Sport Event
+                Sports Event
               </span>
               <span className="text-sm font-medium text-black ">26 +</span>
             </div>

@@ -128,8 +128,9 @@ const Contact_page = () => {
         <div className="h-full w-full">
           <iframe
             className="h-[80%] w-full"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.0142818271784!2d72.55866571188982!3d23.059937979060564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8b65f2c3f296c2c7%3A0x9642c5ef8c48cb2b!2sBlue%20Soltech%20LLP.!5e0!3m2!1sen!2sin!4v1710138363917!5m2!1sen!2sin"
-          ></iframe>
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235014.29979901577!2d72.41459178458858!3d23.020157733892948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1710401435788!5m2!1sen!2sin"
+            ></iframe>
+         
         </div>
       </div>
     </div>

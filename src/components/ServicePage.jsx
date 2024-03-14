@@ -1,8 +1,8 @@
 import React from "react";
-import slide1 from "../assets/img/h-11.jpg";
-import slide2 from "../assets/img/h-2.png";
-import slide3 from "../assets/img/h-3.png";
-import slide4 from "../assets/img/h-4.png";
+import slide1 from "../assets/img/n-1.JPG";
+import slide2 from "../assets/img/n-5.jpg";
+import slide3 from "../assets/img/n-4.jpg";
+import slide4 from "../assets/img/n-3.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Hero from "../components/Hero";
@@ -15,7 +15,7 @@ const description =
 const cardData = [
   {
     id: 1,
-    imgSrc: slide2, // Replace with actual image path or URL
+    imgSrc: slide1, // Replace with actual image path or URL
     title: "Sports Events",
     description:
       "A vertical challenge that tests strength, endurance, and strategy, simulating the thrill of rock climbing in a controlled environment.",
@@ -29,14 +29,14 @@ const cardData = [
   },
   {
     id: 3,
-    imgSrc: slide3,
+    imgSrc: slide2,
     title: "Government Projects",
     description:
       "Partnering with public entities to deliver impactful and sustainable solutions.",
   },
   {
     id: 4,
-    imgSrc: slide1,
+    imgSrc: slide3,
     title: "Social Activities",
     description:
       "Engaging communities with meaningful initiatives for social enrichment and connection.",

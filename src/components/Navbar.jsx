@@ -34,7 +34,7 @@ const Navbar = () => {
             key={item.id}
             className="p-2 font-bold rounded-xl m-2 cursor-pointer duration-300 hover:text-[#27BDEE]"
           >
-            <Link to={item.path}>{item.text}</Link>
+            <a href={item.path}>{item.text}</a>
           </li>
         ))}
       </ul>
@@ -64,7 +64,7 @@ const Navbar = () => {
             key={item.id}
             className="p-4  hover:text-[#27BDEE] duration-300 cursor-pointer border-gray-600"
           >
-            <Link to={item.path}>{item.text}</Link>
+            <a href={item.path}>{item.text}</a>
           </li>
         ))}
         {/* <button className="md:hidden flex items-center justify-center h-fit w-fit p-2 bg-[#26173F] text-white rounded-full  space-x-2">

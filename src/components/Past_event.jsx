@@ -64,13 +64,12 @@ const Past_event = () => {
           Time And Money
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3  gap-4 mx-auto mt-10">
+      <div className="grid grid-cols-1 sm:grid-cols-3  xl:grid-cols-3  gap-4 mx-auto mt-10">
         {[...Array(3)].map((_, index) => (
           <div
             key={index}
-            className="flex items-center justify-center overflow-hidden h-[300px] xl:max-w-[400px] w-fit mx-auto rounded-lg"
+            className="flex items-center justify-center overflow-hidden max-h-[400px] xl:max-h-[300px] max-w-[300px] p-4 xl:max-w-[300px] mx-auto rounded-lg"
           >
-            {/* Ensure the index is within the array bounds */}
             <img
               src={images[(currentImageIndex + index) % images.length].imgSrc}
               alt={images[(currentImageIndex + index) % images.length].alt}

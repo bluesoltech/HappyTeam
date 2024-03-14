@@ -1,7 +1,6 @@
 import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-infinite-logo-slider";
+
 import logo11 from "../assets/img/logo11.png";
 import logo12 from "../assets/img/logo12.png";
 import logo13 from "../assets/img/logo13.png";
@@ -25,45 +24,9 @@ const clientImages = [
   { src: logo19, alt: "Client Logo" },
   { src: logo20, alt: "Client Logo" },
 
-  // ... more images
 ];
 
 const Logo = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    autoplay: true,
-    centerMode: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 2,
-          initialSlide: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
 
   return (
     <div className="my-[70px] w-full md:w-full items-center justify-center">
@@ -75,7 +38,11 @@ const Logo = () => {
           At the core of our mission, your satisfaction is our success
         </p>
       </div>
-      <Slider {...settings}>
+      <Slider 
+      duration={20}
+      pauseOnHover={true}
+      blurBorders={false}
+      blurBoderColor={"#fff"}>
         {clientImages.map((image, index) => (
           <div
             key={index}

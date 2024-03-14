@@ -1,8 +1,9 @@
 import React from "react";
-import slide1 from "../assets/img/h-11.jpg";
-import slide2 from "../assets/img/h-2.png";
-import slide3 from "../assets/img/h-3.png";
-import slide4 from "../assets/img/h-4.png";
+import slide1 from "../assets/img/n-1.JPG";
+import slide2 from "../assets/img/n-5.jpg";
+import slide3 from "../assets/img/n-4.jpg";
+import slide4 from "../assets/img/n-3.jpg";
+
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -16,8 +17,8 @@ const description =
 const cardData = [
   {
     id: 1,
-    imgSrc: slide2,
-    title: "Sports events",
+    imgSrc: slide1,
+    title: "Sports Event",
     description:
       "Happy Team brings communities together through engaging sports events, fostering teamwork and healthy competition across all age groups.",
   },
@@ -30,14 +31,14 @@ const cardData = [
   },
   {
     id: 3,
-    imgSrc: slide3,
+    imgSrc: slide2,
     title: "Government Projects",
     description:
       "Happy Team collaborates with government entities to execute impactful projects, focusing on community development and public engagement initiatives.",
   },
   {
     id: 4,
-    imgSrc: slide1,
+    imgSrc: slide3,
     title: "Social Activities",
     description:
       "Our expertise in organizing social activities aims at strengthening community bonds, promoting social responsibility, and encouraging active participation in meaningful causes.",
@@ -59,7 +60,7 @@ const Services = () => {
         successfully organized events in many sectors, be it sports, wedding,
         corporate and have provided management services.
       </p>
-      <div className="container grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-4 mx-auto  py-2 auto-rows-min">
+      <div className="container grid grid-cols-1 gap-10 md:grid-cols-2  xl:grid-cols-4 lg:grid-cols-2 mx-auto  py-2 auto-rows-min">
         {cardData.map((item, index) => (
           <div key={index} className="flex flex-col">
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-white-800 dark:border-gray-700 mx-auto flex flex-col justify-between h-full">
