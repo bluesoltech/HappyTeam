@@ -1,5 +1,5 @@
 import React from "react";
-import VKPhoto from "../assets/img/VKPhotos03.webp";
+import VKPhoto from "../assets/img/vk-2.JPG";
 import slide1 from "../assets/img/slide1.jpg";
 
 import {
@@ -55,7 +55,7 @@ const What_can_do = () => {
           <img
             src={VKPhoto}
             alt="Description"
-            className="rounded-full !sm:h-[400px] !sm:w-[400px] w-[300px] h-[300px] object-cover object-[-70px]"
+            className="rounded-full !sm:h-[400px] !sm:w-[400px] w-[300px] h-[300px] object-cover "
           />
         </div>
 
